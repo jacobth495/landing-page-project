@@ -8,11 +8,19 @@ img {
   width: 500px;
 }
 
+h3 {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 46px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   background-color: rgb(99, 99, 252);
-  padding: 10px;
+  padding: 5px;
 }
 
 .toplinks {
@@ -23,4 +31,12 @@ img {
 
 .topflex {
   display: flex;
+}
+
+.dino-pic {
+  width: 300px;
+}
+
+.about {
+  font-size: 24px;
 }
