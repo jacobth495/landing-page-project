@@ -1,0 +1,26 @@
+body {
+  background-color: blueviolet;
+  margin: 0px;
+
+}
+
+img {
+  width: 500px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(99, 99, 252);
+  padding: 10px;
+}
+
+.toplinks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topflex {
+  display: flex;
+}
