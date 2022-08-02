@@ -39,6 +39,7 @@ button {
   width: 100px;
   margin-top: 15px;
   margin-bottom: 15px;
+  border-radius: 25px;
 }
 
 .header {
@@ -159,7 +160,13 @@ img.dino-pic {
 }
 
 .bottombox {
-  height: 100px;
-  width: 300px;
-  background-color: white;
+  background-color: rgb(245, 230, 69);
+  font-size: 28px;
+  display: flex;
+  border-radius: 25px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  width: 900px;
 }
