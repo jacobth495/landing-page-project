@@ -8,27 +8,46 @@ body {
   margin-top: 0%;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+}
+
 a {
   color: orange;
 }
 
 img {
-  width: 500px;
+  width: 100px;
+  height: 100px;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 26px;
+  margin: 10px;
 }
 
 h1 {
   font-size: 46px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: blue;
+  height: 50px;
+  width: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   background-color: rgb(99, 99, 252);
-  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   color: orange;
 }
 
@@ -45,12 +64,27 @@ h1 {
   justify-content: space-around;
   color: blue;
   padding: 10px;
+  flex-flow: row wrap;
 }
 
-.dino-pic {
+img.dino-pic {
   height: 300px;
+  width: 375px;
 }
 
 .about {
   font-size: 24px;
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.flextwo {
+  display: flex;
+  flex-flow: row wrap;
 }
