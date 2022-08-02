@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: blue;
-  margin: 200px;
+  margin: 300px;
   margin-top: 0%;
 }
 
@@ -16,11 +16,12 @@ ul {
 
 a {
   color: orange;
+  list-style: none;
 }
 
 img {
-  width: 120px;
-  height: 120px;
+  width: 175px;
+  height: 175px;
 }
 
 h3 {
@@ -114,4 +115,6 @@ img.dino-pic {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  font-size: 20px;
+  gap: 10px;
 }
