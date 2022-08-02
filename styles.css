@@ -96,9 +96,15 @@ img.dino-pic {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 34px;
   font-weight: bold;
   color: orange;
+  margin-bottom: 0px;
+}
+
+.middletext p {
+  margin-bottom: 0px;
+  margin-top: 40px;
 }
 
 .flextwo {
@@ -115,7 +121,7 @@ img.dino-pic {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
   font-size: 22px;
   font-weight: bold;
   gap: 10px;
@@ -126,8 +132,34 @@ img.dino-pic {
 
 .flextwo p {
   width: 200px;
-  height: 200px;
+  height: 100px;
   margin-top: 0%;
   font-weight: 100;
   font-size: 18px;
+}
+
+.quote {
+  display: flex;
+  background-color: pink;
+  font-size: 48px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  height: 400px;
+}
+
+.lastflex {
+  height: 400px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottombox {
+  height: 100px;
+  width: 300px;
+  background-color: white;
 }
